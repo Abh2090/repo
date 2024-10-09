@@ -1,0 +1,5 @@
+[all:vars]
+ansible_common_args='-0 StrictHostKeyChecking=no
+
+[all]
+test ansible_ssh_host=172.31.94.63 ansible_ssh_port=22 ansible_user=ec2-user
